@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    height: 100vh; /*altura de 100% para centralizar */
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh; /*o gap para dar espaco entre as duas divs*/
+}
+
+button{
+    width: 95px;
+}
+
+footer{
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
